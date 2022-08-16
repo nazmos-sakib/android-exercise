@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_do"
+        android:icon="@drawable/ic_baseline_add_circle_outline_24"
+        android:title="@string/save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/item_save"
+        android:title="@string/save_value" />
+    <item
+        android:id="@+id/item_load"
+        android:title="@string/load_value" />
+</menu>

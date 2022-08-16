@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/e19parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exercise19">
+
+    <Button
+        android:id="@+id/e19snackbar"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="SHOW SNACKBAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle29" />
+
+    <TextView
+        android:id="@+id/textViewTitle28"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/exercise_19"
+        android:textAlignment="center"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTitle29"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Material design, floating button, Snackbar and card view"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle28" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/e19FAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="88dp"
+        android:src="@drawable/add"
+        app:backgroundTint="@color/orange"
+        app:fabSize="auto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:rippleColor="#FFF"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/e19cardView"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="@+id/e19snackbar"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="@+id/e19snackbar"
+        app:layout_constraintTop_toBottomOf="@+id/e19snackbar"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp"
+        >
+
+        <RelativeLayout
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txtHello"/>
+
+            <ImageView
+                android:id="@+id/e19cardImage"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/txtHello"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ic_launcher" />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+
+    <include
+        layout="@layout/footer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</androidx.constraintlayout.widget.ConstraintLayout>

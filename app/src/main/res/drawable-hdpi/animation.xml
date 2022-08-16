@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item   android:duration="100" android:drawable="@drawable/leo1"/>
+    <item   android:duration="100" android:drawable="@drawable/leo2"/>
+    <item   android:duration="100" android:drawable="@drawable/leo3"/>
+    <item   android:duration="100" android:drawable="@drawable/leo4"/>
+    <item   android:duration="100" android:drawable="@drawable/leo5"/>
+    <item   android:duration="100" android:drawable="@drawable/leo6"/>
+    <item   android:duration="100" android:drawable="@drawable/leo7"/>
+    <item   android:duration="100" android:drawable="@drawable/leo8"/>
+
+
+</animation-list>

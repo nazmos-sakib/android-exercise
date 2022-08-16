@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.varsityexercise">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_logo_hs_schmalkalden"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo_hs_schmalkalden"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VarsityExercise"
+        tools:targetApi="31">
+        <activity
+            android:name=".exercise20"
+            android:exported="false" />
+        <activity
+            android:name=".exercise19"
+            android:exported="false" />
+        <activity
+            android:name=".exercise18"
+            android:exported="false" />
+        <activity
+            android:name=".exercise17"
+            android:exported="false" />
+        <activity
+            android:name=".exercise16"
+            android:exported="false"
+            android:label="@string/title_activity_exercise16"
+            android:theme="@style/Theme.VarsityExercise.NoActionBar" />
+        <activity
+            android:name=".exercise15"
+            android:exported="false" />
+        <activity
+            android:name=".exercise14"
+            android:exported="false" />
+        <activity
+            android:name=".exercise13Extra1"
+            android:exported="false" />
+        <activity
+            android:name=".exercise13"
+            android:exported="false" />
+        <activity
+            android:name=".exercise12Extra12"
+            android:exported="false" />
+        <activity
+            android:name=".exercise12"
+            android:exported="false" />
+        <activity
+            android:name=".exercise11"
+            android:exported="false" />
+        <activity
+            android:name=".exercise10"
+            android:exported="false" />
+        <activity
+            android:name=".exercise9"
+            android:exported="false" />
+        <activity
+            android:name=".exercise8Extra1"
+            android:exported="false" />
+        <activity
+            android:name=".exercise8"
+            android:exported="false" />
+        <activity
+            android:name=".exercise7Extra1"
+            android:exported="false" />
+        <activity
+            android:name=".exercise7"
+            android:exported="false" />
+        <activity
+            android:name=".exercise6_Extra1"
+            android:exported="false" />
+        <activity
+            android:name=".exercise6"
+            android:exported="false" />
+        <activity
+            android:name=".exercise5Extra1"
+            android:exported="false" />
+        <activity
+            android:name=".exercise5"
+            android:exported="false" />
+        <activity
+            android:name=".exercise4Extra1"
+            android:exported="false" />
+        <activity
+            android:name=".exercise4"
+            android:exported="false" />
+        <activity
+            android:name=".exercise3"
+            android:exported="false" />
+        <activity
+            android:name=".exercise2"
+            android:exported="false" />
+        <activity
+            android:name=".exercise1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

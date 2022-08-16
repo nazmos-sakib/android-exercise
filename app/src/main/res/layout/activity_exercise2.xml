@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exercise2">
+
+    <TextView
+        android:id="@+id/textViewTitle4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="@string/exercise_2"
+        android:textAlignment="center"
+        android:textColor="#FAFAFA"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/radioPet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTitle4">
+
+        <RadioButton
+            android:id="@+id/radioButtonCat"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="clip_horizontal|clip_vertical"
+            android:layout_marginEnd="10dp"
+            android:checked="true"
+            android:text="@string/cat" />
+
+        <RadioButton
+            android:id="@+id/radioButtonDog"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:foregroundGravity="center_vertical|center|center_horizontal"
+            android:text="@string/dog" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/petImage1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="@string/pet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioPet"
+        app:srcCompat="@drawable/cat" />
+
+    <RatingBar
+        android:id="@+id/ratingBarPet"
+        android:layout_width="198dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="@string/rating"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/petImage1" />
+
+    <Button
+        android:id="@+id/btnEvaluate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/evaluate"
+        app:icon="@drawable/check"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ratingBarPet" />
+
+    <TextView
+        android:id="@+id/textViewRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="@string/rating"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEvaluate" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnPrevious"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/previous"
+            app:icon="@drawable/previous"
+            app:iconGravity="textStart" />
+
+        <Button
+            android:id="@+id/btnHome"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="49dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/home"
+            android:gravity="center"
+            app:icon="@drawable/home"
+            app:iconGravity="textStart" />
+
+        <Button
+            android:id="@+id/btnNext"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="@string/next"
+            app:icon="@drawable/next"
+            app:iconGravity="textStart" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

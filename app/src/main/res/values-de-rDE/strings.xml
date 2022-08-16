@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">VarsityExercise</string>
+    <string name="exercise_1">Übung 1</string>
+    <string name="exercise_2">Übung 2</string>
+    <string name="exercise_3">Übung 3</string>
+    <string name="exercise_4">Übung 4</string>
+    <string name="exercise_5">Übung 5</string>
+    <string name="exercise_6">Übung 6</string>
+    <string name="exercise_7">Übung 7</string>
+    <string name="exercise_8">Übung 8</string>
+    <string name="exercise_9">Übung 9</string>
+    <string name="exercise_10">Übung 10</string>
+    <string name="exercise_11">Übung 11</string>
+    <string name="exercise_12">Übung 12</string>
+    <string name="exercise_13">Übung 13</string>
+    <string name="exercise_14">Übung 14</string>
+    <string name="exercise_15">Übung 15</string>
+    <string name="exercise_16">Übung 16</string>
+    <string name="exercise_17">Übung 17</string>
+    <string name="exercise_18">Übung 18</string>
+    <string name="exercise_19">Übung 19</string>
+    <string name="exercise_20">Übung 20</string>
+    <string name="exercise_21">Übung 21</string>
+    <string name="cat">Katze</string>
+    <string name="change_category">Kategorie ändern</string>
+    <string name="previous">Vorherige</string>
+    <string name="next">Nächste</string>
+    <string name="home">Heimat</string>
+    <string name="dog">Hund</string>
+    <string name="pet">Haustier</string>
+    <string name="evaluate">Auswerten</string>
+    <string name="rating">Bewertung</string>
+    <string name="player_name">Spielername</string>
+    <string name="start_game">SPIEL BEGINNEN</string>
+    <string name="question">Frage</string>
+    <string name="true_">WAHR</string>
+    <string name="false_">FALSCH</string>
+    <string name="result">Ergebnis</string>
+    <string name="first_activity">Erste Aktivität</string>
+    <string name="open_second_activity">ZWEITE AKTIVITÄT ÖFFNEN</string>
+    <string name="second_activity">Zweite Aktivität</string>
+    <string name="close_activity">Aktivität schließen</string>
+    <string name="multiply">MULTIPLIZIEREN</string>
+    <string name="number_1">Nummer 1</string>
+    <string name="number_2">Nummer 2</string>
+    <string name="the_result_is">Das Ergebnis ist :</string>
+    <string name="bigresulttext">BigResultText</string>
+    <string name="calculate">BERECHNUNG</string>
+    <string name="add">Hinzufügen</string>
+    <string name="subtract">Subtrahieren</string>
+    <string name="chose_favorite_animal">Lieblingstier wählen</string>
+    <string name="your_favorite_animal">dein Lieblingstier</string>
+    <string name="giraffe">Giraffe</string>
+    <string name="class_mamelia">Class: Mamelia</string>
+    <string name="order_cernivora">Order: Cernivora</string>
+    <string name="leo">leo</string>
+    <string name="emoij">emoij</string>
+    <string name="actor_image">Schauspielerbild</string>
+    <string name="actor_name">Schauspielername</string>
+    <string name="Actor">TextView</string>
+    <string name="_60k">60K</string>
+    <string name="_123k">123k</string>
+    <string name="_50k">50k</string>
+    <string name="save">Save</string>
+    <string name="save_value">Save Value</string>
+    <string name="load_value">Load Value</string>
+    <string name="e_g_erfurt">e.g Erfurt</string>
+    <string name="show_on_map">SHOW ON MAP</string>
+    <string name="title_activity_exercise16">exercise16</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="textview">TextView</string>
+    <string name="button1">Button1</string>
+    <string name="button11">Button11</string>
+    <string name="button4">Button4</string>
+    <string name="button5">Button5</string>
+    <string name="button51">Button51</string>
+    <string name="button2">Button2</string>
+    <string name="button57">Button57</string>
+    <string name="button59">Button59</string>
+    <string name="button16">Button16</string>
+    <string name="button60">Button60</string>
+    <string name="button18">Button18</string>
+    <string name="button15">Button15</string>
+    <string name="button17">Button17</string>
+    <string name="button58">Button58</string>
+    <string name="button10">Button10</string>
+    <string name="button14">Button14</string>
+    <string name="button13">Button13</string>
+    <string name="button12">Button12</string>
+    <string name="button7">Button7</string>
+    <string name="button3">Button3</string>
+    <string name="button52">Button52</string>
+    <string name="button54">Button54</string>
+    <string name="button56">Button56</string>
+    <string name="button61">Button61</string>
+    <string name="button55">Button55</string>
+    <string name="button9">Button9</string>
+    <string name="button19">Button19</string>
+    <string name="button20">Button20</string>
+    <string name="button22">Button22</string>
+    <string name="button">Button</string>
+    <string name="button6">Button6</string>
+    <string name="button8">Button8</string>
+    <string name="button21">Button21</string>
+    <string name="spinner">Spinner</string>
+
+    <string-array name="students">
+        <item>Säkib</item>
+        <item>Nizam</item>
+        <item>Räshed</item>
+        <item>Nüsrat</item>
+        <item>Mährin</item>
+    </string-array>
+</resources>

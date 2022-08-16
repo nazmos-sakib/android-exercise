@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recyclerParant"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/contact_name"
+            android:textStyle="bold"
+            android:layout_marginTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtName"
+            android:layout_centerHorizontal="true"
+            android:text="@string/contact_email"
+            android:textStyle="italic"
+            android:layout_marginStart="5dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/txtEmail"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            >
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/ic_launcher_background"
+                tools:ignore="ImageContrastCheck"
+                android:scaleType="centerCrop"
+                android:layout_alignParentTop="true"/>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
